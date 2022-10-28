@@ -1,10 +1,10 @@
 body {
-  height: 100vh;
   background-color: rgb(255, 255, 255);
   background-image: url("./header-illsutration-mobile@2x.svg");
   background-size: contain;
   background-position-y: 100px;
   background-repeat: no-repeat;
+  margin: 0%;
 }
 
 .container ul {
@@ -86,4 +86,230 @@ body {
   color: #36b37e;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+}
+
+.arrowDown {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10%;
+}
+
+.myRecentWork {
+  text-align: center;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.titleWorkBlue {
+  font-family: "inter", sans-serif;
+  font-size: 40px;
+  color: #172b4d;
+  font-weight: 700;
+}
+
+.post {
+  border: solid 1px #d0d9d4;
+  background-color: #ebf0ee;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  height: 474px;
+}
+
+.cardInformation {
+  border-radius: 10px;
+  background-color: white;
+  max-height: 50%;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "inter", sans-serif;
+  color: #3a4a42;
+}
+
+.cardInformation ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.myRecentWorkItem {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  width: max-content;
+}
+
+.buttongreen {
+  background-color: #36b37e;
+  width: 122px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+
+.buttongreen:hover {
+  transform: scale(1.2);
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.containerAboutMe {
+  background-image: url(./illustration\ 2-about\ me\ mobile.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-bottom: 15px;
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerAboutMe p {
+  margin: 0% 5% 5% 5%;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+}
+
+.buttonResume {
+  background-color: #36b37e;
+  size: 17px;
+  width: 159px;
+  height: 48px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+
+.buttonResume:hover {
+  transform: scale(1.2);
+}
+
+.aboutMe {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: auto;
+  gap: 24px;
+  justify-items: center;
+  align-items: center;
+  background-image: url("images/illustration-\ about\ me-\ mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aboutMeCard {
+  padding-bottom: 11px;
+  margin-bottom: 5%;
+  border: solid 1px #d0d9d4;
+  background-color: #ebf0ee;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 327px;
+  width: 325px;
+}
+
+.aboutMeCard img {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  margin-bottom: 60px;
+}
+
+.aboutMeCard ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.aboutMeListItem {
+  background-color: white;
+  color: #36b37e;
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.blueTitle {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.green {
+  color: #36b37e;
+}
+
+.skillsItem {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.separator {
+  background-color: #36b37f;
+  width: 55px;
+  height: 6px;
+  margin: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.svgImage {
+  position: absolute;
+  right: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "inter", sans-serif;
+  color: #3a4a42;
 }
