@@ -7,7 +7,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.container {
+.container ul {
+  list-style: none;
+  align-items: center;
+  padding-left: 0%;
   margin: 20px;
   display: flex;
   justify-content: space-between;
