@@ -97,9 +97,9 @@ body {
 
 .myRecentWork {
   margin: 22px;
-    display: grid;
-    gap: 24px;
-    justify-items: center;
+  display: grid;
+  gap: 24px;
+  justify-items: center;
 }
 
 .titleWorkBlue {
