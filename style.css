@@ -354,7 +354,7 @@ body {
 .ThirdTittle {
   align-items: center;
   text-align: center;
-  margin: 5% 5% 5% 10%;
+  margin: 5% 5% 5% 5%;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 52px;
@@ -473,6 +473,8 @@ body {
 }
 
 .unlistbar {
+  color: #172b4d;
+  font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -545,6 +547,8 @@ tablet
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 100%;
   }
 
   .containerThirdTittleForm {
@@ -552,8 +556,9 @@ tablet
   }
 
   .formThirdTittle {
-    margin: 0 140px;
     display: grid;
+    margin: 0 140px;
+    margin: 5% 5% 5% 10%;
     grid-template-columns: 2fr 3fr;
   }
 
@@ -616,8 +621,8 @@ tablet
     position: absolute;
     right: -21px;
     z-index: -1;
-    width: 15%;
-    height: 20%;
+    width: 21%;
+    height: 34%;
     align-self: center;
   }
 
