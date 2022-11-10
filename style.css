@@ -196,6 +196,8 @@ body {
 
 .buttongreen:hover {
   transform: scale(1.2);
+  background-color: red;
+  transition: background-color 0.2s;
 }
 
 .button:hover {
@@ -239,6 +241,8 @@ body {
 
 .buttonResume:hover {
   transform: scale(1.3);
+  background-color: red;
+  transition: background-color 0.2s;
 }
 
 .aboutMe {
