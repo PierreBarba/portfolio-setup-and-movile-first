@@ -130,6 +130,10 @@ body {
   font-weight: 700;
 }
 
+.titleWorkBlue:hover {
+  transform: rotate(0.5rad);
+}
+
 .post {
   border: solid 1px #d0d9d4;
   background-color: #ebf0ee;
@@ -191,6 +195,10 @@ body {
 }
 
 .buttongreen:hover {
+  transform: scale(1.2);
+}
+
+.button:hover {
   transform: scale(1.2);
 }
 
@@ -335,6 +343,10 @@ body {
   right: 0;
 }
 
+.svgImage:hover {
+  transform: translate(-2.1rem, -2ex);
+}
+
 .subtitle {
   text-align: center;
   font-size: 1.5rem;
@@ -422,6 +434,11 @@ body {
   line-height: 24px;
   color: white;
   text-align: center;
+}
+
+.finalButton:hover {
+  background-color: red;
+  transition: background-color 0.2s;
 }
 
 .finalSection {
