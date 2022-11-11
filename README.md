@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](http://127.0.0.1:5500/)
+[https://pierrebarba.github.io/portfolio-setup-and-movile-first/](http://127.0.0.1:5500/)
 
 
 ## Getting Started
