@@ -45,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/header-illsutration-mobile@2x.svg);
+  background-image: url("/headerillsutrationmobile@2x.svg");
   background-repeat: no-repeat;
   height: 100vh;
   background-position: center center;
@@ -98,7 +98,7 @@ body {
 }
 
 .description {
-  color: #118552gi;
+  color: #118552;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
@@ -205,7 +205,7 @@ body {
 }
 
 .containerAboutMe {
-  background-image: url(./illustration\ 2-about\ me\ mobile.svg);
+  background-image: url("./illustration2-aboutmemobile.svg");
   background-repeat: no-repeat;
   background-position-y: bottom;
   padding-bottom: 15px;
@@ -417,7 +417,7 @@ body {
 }
 
 .finalTextarea::-webkit-resizer {
-  background-image: url(./textareaHandle.svg);
+  background-image: url("./textareaHandle.svg");
   background-repeat: no-repeat;
   background-size: 13px 13px;
   background-position: center;
@@ -521,7 +521,7 @@ tablet
   .tittleContainer {
     margin-top: 0%;
     font-family: 'Inter', sans-serif;
-    background-image: url(/imgdesktopversion/Header-llustration-desktop.svg);
+    background-image: url("/imgdesktopversion/Header-llustration-desktop.svg");
   }
 
   .imgOneMovil {
