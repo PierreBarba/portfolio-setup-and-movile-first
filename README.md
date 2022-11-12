@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[https://pierrebarba.github.io/portfolio-setup-and-movile-first/](livedemo)
+[livedemo](https://pierrebarba.github.io/portfolio-setup-and-movile-first/)
 
 
 ## Getting Started
