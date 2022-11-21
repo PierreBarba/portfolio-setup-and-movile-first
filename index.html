@@ -15,11 +15,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-        <header>
+        <header id="headerPage">
             <nav class="container">
                 <ul>
                     <li><h2 class="baritem">Welcome</h2></li>          
-                    <li><a href="/" rel="noopener"><img class="hamburger" src="./Union.svg" alt="menu" ></li></a>
+                    <li><button href="/" rel="noopener" class="noopener"><img class="hamburger" src="./Union.svg" alt="menu" ></button></li>
                 </ul>
             </nav>
         </header>
@@ -30,6 +30,17 @@
                 <li class="text">Contact</li>
             </ul>
         </div>
+        <nav class="header-nav-mobile hidden">
+            <button type="button" class="btn-close-nav">
+              <img src="./newCross.svg" alt="cancel icon" class="cancel-cross">
+            </button>
+            <ul class="newListMobilVersion">
+              <li><a href="#myRecentWork" class="menu-link">Portfolio</a></li>
+              <li><a href="#about-me" class="menu-link">About</a></li>
+              <li><a href="#section-contact" class="menu-link">Contact</a></li>
+            </ul>
+            <hr class="separatorMobilVersion">
+          </nav>  
         <section class="tittleContainer">
             <h1 class="welcome">Hey there. I'm Pierre barba<br><span class="description"> I'm a software developer</span></h1>
             <p class="textcenter">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
@@ -196,6 +207,7 @@
         </ul>
     </section>
     <hr class="finalSeparador">
+    <script src="./index.js"></script>
 </body>
 </html>
 

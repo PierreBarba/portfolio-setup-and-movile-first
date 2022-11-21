@@ -27,7 +27,81 @@ body {
   margin: 0;
   padding: 0;
 }
+.noopener{
+    border: none;
+    background: white;
+}
+.hamburger {
+  
+  background-color: white !important;
+  border: none;
+  width: fit-content;
+  align-self: center;
+  background: var(--color-primary);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 0px;
+  cursor: pointer;
+}
+.header-nav-mobile {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 95%;
+  background-color: white;
+  color: #3a4a42;
+  border: 1px lightgrey solid;
+  border-radius: 34px;
+  z-index: 60;
+}
+.hidden {
+  display: none;
+}
+.btn-close-nav {
+  position: fixed;
+  z-index: 65;
+  display: block !important;
+  text-align: right;
+  width: 100%;
+  border: none;
+  background: white;
+}
 
+.cancel-cross {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.menu-link {
+  display: block;
+  text-decoration: none;
+  margin: 1em 1em;
+  color: #3a4a42;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.newListMobilVersion{
+  list-style: none;
+  padding-left: 5px;
+}
+
+.separatorMobilVersion{
+  background-color: #172B4D;
+    width: 55px;
+    height: 6px;
+    margin: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: auto;
+}
 .container h2 {
   font-style: normal;
   font-family: 'Inter', sans-serif;
@@ -36,6 +110,7 @@ body {
   line-height: 28px;
   text-align: center;
 }
+
 
 .textcenter {
   padding: 0% 24px;
