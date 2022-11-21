@@ -7,7 +7,6 @@ menuBtn.addEventListener('click', () => {
 });
 
 btnCloseNav.addEventListener('click', () => {
-    menuBtn.classList.remove('hidden');
     headerNavMobile.classList.add('hidden');
 })
 
