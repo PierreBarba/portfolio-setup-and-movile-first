@@ -15,14 +15,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-        <header>
+        <header id="headerPage">
             <nav class="container">
                 <ul>
                     <li><h2 class="baritem">Welcome</h2></li>          
-                    <li><a href="/" rel="noopener"><img class="hamburger" src="./Union.svg" alt="menu" ></li></a>
+                    <li><button href="/" rel="noopener" class="noopener"><img class="hamburger" src="./Union.svg" alt="menu" ></button></li>
                 </ul>
             </nav>
         </header>
+        <nav class="header-nav-mobile hidden">
+            <button type="button" class="btn-close-nav">
+              <img src="./newCross.svg" alt="cancel icon" class="cancel-cross">
+            </button>
+            <ul class="newListMobilVersion">
+               <li><a href="#myRecentWork" class="menu-link"> Portfolio </a></li>
+               <li><a href="#about-me" class="menu-link"> About </a></li>
+               <li><a href="#section-contact" class="menu-link"> Contact </a></li>
+            </ul>
+            <hr class="separatorMobilVersion">
+        </nav>  
         <div class="containerDesk">
             <ul class="unlistbar">
                 <li class="text">Portfolio</li>
@@ -34,20 +45,20 @@
             <h1 class="welcome">Hey there. I'm Pierre barba<br><span class="description"> I'm a software developer</span></h1>
             <p class="textcenter">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
             </p>
-             <ul class="mediaContainer">
-                 <li><a href="https://twitter.com/magpe02" target="_blank" rel="noopener" ><img class="mediaIcon" src="./twitter.svg" alt="Twitter"></a></li>
-                 <li><a href="https://www.linkedin.com/in/jean-pierre-barba-arredondo-114b851b4/" target="_blank" rel="noopener" ><img class="mediaIcon" src="./Linkedin icon.svg" alt="linkedin"></a></li>
-                 <li><a href="https://medium.com/" target="_blank" rel="noopener" ><img class="mediaIcon" src="./medium (1).svg" alt="github"></a></li>
-                 <li><a href="https://github.com/PierreBarba" target="_blank" rel="noopener" ><img class="mediaIcon" src="./github.svg" alt="Twitter"></a></li>
-                 <li><a href="https://angel.co/" target="_blank" rel="noopener"><img class="mediaIcon" src="./angellist.svg" alt="github"></a></li>
-             </ul>
-             <a class="arrowDown" href="#MyRecentWork"><img src="./Disabled.svg" alt="down arrow"></a>
+            <ul class="mediaContainer">
+                <li><a href="https://twitter.com/magpe02" target="_blank" rel="noopener" ><img class="mediaIcon" src="./twitter.svg" alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/jean-pierre-barba-arredondo-114b851b4/" target="_blank" rel="noopener" ><img class="mediaIcon" src="./Linkedin icon.svg" alt="linkedin"></a></li>
+                <li><a href="https://medium.com/" target="_blank" rel="noopener" ><img class="mediaIcon" src="./medium (1).svg" alt="github"></a></li>
+                <li><a href="https://github.com/PierreBarba" target="_blank" rel="noopener" ><img class="mediaIcon" src="./github.svg" alt="Twitter"></a></li>
+                <li><a href="https://angel.co/" target="_blank" rel="noopener"><img class="mediaIcon" src="./angellist.svg" alt="github"></a></li>
+            </ul>
+            <a class="arrowDown" href="#MyRecentWork"><img src="./Disabled.svg" alt="down arrow"></a>
         </section>
     <hr class="separator">
-    <section class="myRecentWork">
+    <section id="myRecentWork">
         <h2 class="titleWorkBlue" id="myWork">My Recent Work</h2>
         <div class="cardGrid">
-            <section class="post">
+            <section id="myRecentWork" class="post">
                 <section class="cardInformation">
                     <h3 class="subtitle">Multi-Post Stories Gain+Glory</h3>
                     <ul>
@@ -118,10 +129,10 @@
                     </ul>
                     <button type="button"class="buttongreen">See Project</button>
                 </section>
-            </section>
+            </section> -->
         </div>
     </section>
-    <section class="containerAboutMe">
+    <section class="containerAboutMe" id="about-me">
         <img class="svgImage"src="./illustration 1- about me-mobile.svg" alt="(imgTop)">
         <h2 class="blueTitle">About me</h2>
         <p> I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -169,7 +180,27 @@
             </section>
         </div>
     </section>
-    <section class="formThirdTittle">
+<<<<<<< HEAD
+    <section class="formThirdTittle" id="section-contact">
+=======
+    <header id="">
+        <div id="header" class="container">
+          <a href="#" class="logo">Welcome</a>
+          <button type="button" class="menu-btn">
+            <img src="./imges/Union.svg" alt="menu">
+          </button>   
+          <nav class="header-nav-mobile hidden">
+              <img src="./imges/Icon-Cancel.svg" alt="cancel icon" class="cancel-cross">
+            <ul>
+              <li><a href="#myRecentWork" class="menu-link">Portfolio</a></li>
+              <li><a href="#about-me" class="menu-link">About</a></li>
+              <li><a href="#section-contact" class="menu-link">Contact</a></li>
+            </ul>
+          </nav>  
+        </div>  
+      </header>
+    <section id="section-contact" class="formThirdTittle">
+>>>>>>> 831c3220dcb33de6bbe5c547afee348da17db2c3
                 <img class="pilarRight" src="./imgdesktopversion/pilarfinal.svg" alt="pilarright">
                 <img class="cubeFinalLeft" src="./imgdesktopversion/cubofinalleft.svg" alt="cubeFinalLeft">
                 <h2 class="ThirdTittle">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
@@ -196,6 +227,7 @@
         </ul>
     </section>
     <hr class="finalSeparador">
+    <script src="./index.js"></script>
 </body>
 </html>
 
