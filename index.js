@@ -22,5 +22,3 @@ linkSection[1].addEventListener('click', () => {
 linkSection[2].addEventListener('click', () => {
     headerNavMobile.classList.add('hidden')
 });
-
-
