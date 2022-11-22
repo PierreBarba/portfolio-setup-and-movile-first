@@ -201,6 +201,7 @@ body {
 }
 
 .titleWorkBlue {
+  text-align: center;
   font-family: "inter", sans-serif;
   font-size: 2.5rem;
   color: #172b4d;
