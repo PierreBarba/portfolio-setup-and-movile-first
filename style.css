@@ -28,6 +28,83 @@ body {
   padding: 0;
 }
 
+.noopener {
+  border: none;
+  background: white;
+}
+
+.hamburger {
+  background-color: white !important;
+  border: none;
+  width: fit-content;
+  align-self: center;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.header-nav-mobile {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 95%;
+  background-color: white;
+  color: #3a4a42;
+  border: 1px lightgrey solid;
+  border-radius: 34px;
+  z-index: 60;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-close-nav {
+  position: fixed;
+  z-index: 65;
+  display: block !important;
+  text-align: right;
+  width: 100%;
+  border: none;
+  background: white;
+}
+
+.cancel-cross {
+  display: inline-block;
+  margin: 6px auto;
+}
+
+.menu-link {
+  display: block;
+  text-decoration: none;
+  margin: 1em 1em;
+  color: #3a4a42;
+  font-size: x-large;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.newListMobilVersion {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.separatorMobilVersion {
+  background-color: #172b4d;
+  width: 55px;
+  height: 6px;
+  margin: none;
+  border: none;
+  border-radius: 10px;
+  margin-top: auto;
+}
+
 .container h2 {
   font-style: normal;
   font-family: 'Inter', sans-serif;
@@ -114,7 +191,7 @@ body {
 .myRecentWork {
   margin: 22px;
   display: grid;
-  gap: 24px;
+  gap: 12px;
   justify-items: center;
 }
 
@@ -124,6 +201,7 @@ body {
 }
 
 .titleWorkBlue {
+  text-align: center;
   font-family: "inter", sans-serif;
   font-size: 2.5rem;
   color: #172b4d;
@@ -155,6 +233,7 @@ body {
   align-items: center;
   font-family: "inter", sans-serif;
   color: #3a4a42;
+  width: -webkit-fill-available;
 }
 
 .cardInformation ul {
@@ -175,7 +254,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 0.75rem;
-  line-height: 16px;
+  line-height: 12px;
   width: max-content;
 }
 
@@ -651,11 +730,10 @@ tablet
     align-self: center;
     height: 341px;
   }
+
 }
 
-/*
-tablet
-*/
+
 @media (max-width: 767px) {
   .containerDesk {
     display: none;
@@ -682,4 +760,233 @@ tablet
     width: fit-content;
     line-height: 3;
   }
+  .DesktopPopUp{
+    display: none;
+    z-index: 50;
+      height: 40em;
+      margin:5% 0% 0% -2%;
+  }
+}
+
+.card-work-details-mobile {
+  display: none;
+  padding: 16px;
+   font-size: 16px; 
+   background: #fff; 
+  border: 1px solid #dfe1e6; 
+  box-sizing: border-box;
+  border-radius: 16px; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transition: 2000ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  
+}
+.show{
+  display: grid;
+}
+
+.btn-close-details {
+  position: absolute;
+  top: 4%;
+  right: 5%;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+.card-image-details-mobile {
+  height: 20px;
+  left: 16px;
+}
+
+.card-image-details-mobile > img {
+  width: 100%;
+  height: 219px;
+  object-fit: cover;
+}
+
+.card-title-mobile {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #172b4d;
+  text-align: left;
+  line-height: 44px;
+}
+
+.cardTag > ul{
+  background: lightgray;
+  font-size: 12px;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  border-radius: 2px;
+}
+
+.cardTag {
+  margin-right: -1px;
+}
+
+.myRecentWorks {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.informationCard {
+  display: flex;
+  font-family: "inter", sans-serif;
+  gap: -15px;
+  height: 48px;
+}
+
+.informationCard ul {
+  display: flex;
+
+  padding: 6px;
+  gap: 8px;
+  list-style: none;
+  height: 32px;
+  margin: 0% 0% 0% 0%;
+}
+
+.myRecentWorkPopUp {
+  margin: 6px;
+  display: grid;
+  gap: 6px;
+  justify-items: left;
+  height: 201px;
+}
+
+.subTitlePopUp {
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7em;
+  color: #172b4d;
+  margin: 0em 0em 0em 0em;
+}
+
+.card-paragraph-mobile {
+  color: #344563;
+  font-family: Inter, sans-serif;
+  line-height: 1.5em;
+  margin: 0% 0% 0% 2%;
+  font-weight: 400;
+}
+
+.card-button-mobile {
+    display: flex;
+    height: 59px;
+}
+
+.btn-card-details-mobile {
+  display: flex;
+}
+
+.btn-card-details-mobile > img {
+  margin-left: 0% 0% 0% 0%;
+  padding: 5px;
+  gap: 12px;
+}
+
+
+ @media (min-width: 768px){
+  .subtitle {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "inter", sans-serif;
+    color: #3a4a42;
+}
+
+  .subTitlePopUp {
+    grid-column: 1;
+    grid-row: 1;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7em;
+    color: #172b4d;
+    margin: 201px 0px 0px 0px;
+  }
+
+  .card-paragraph-mobile {
+  color: #344563;
+  font-family: Inter, sans-serif;
+  line-height: 1.5em;
+  margin: 0%;
+  font-weight: 400;
+  grid-row: 3;
+  grid-column: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: large;
+  }
+  
+  
+    .card-button-mobile {
+      display: flex;
+      justify-self: end;
+      height: 58px;
+      grid-column: 2;
+      grid-row: 1;
+      margin: 219px 0px 0px -135px;
+      gap: 23px;
+  }
+  
+.card-image-details-mobile > img {
+ display: none;;
+}
+.myRecentWorkItem {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.99rem;
+  line-height: 12px;
+  width: 103px;
+  margin: 0px 0px 0px 0px;
+}
+.closeButtonDesktop{
+z-index: 50;
+width: 5px 5px 5px 5px;
+height: 29px;
+width: 40px;
+margin: 6px 0px 0px 722px;
+}
+.DesktopPopUp{
+  z-index: 50;
+  height: 40em;
+  margin: 6% 0% 0% 28%;
+}
+.btn-close-details {
+  position: absolute;
+  background: none;
+  border: none;
+  position: absolute;
+    top: 0%;
+right: 29%;
+}
+} 
+@media (min-width:769px){
+  .DesktopPopUp {
+    z-index: 50;
+    height: 48em;
+    margin: 3% 0% 0% 6%;
+    /* width: 2005px; */
+    height: 684px;
+}
 }
