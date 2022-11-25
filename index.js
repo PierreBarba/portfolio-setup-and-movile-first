@@ -1,6 +1,3 @@
-// esto solo es para buscar el objeto y ver si esta
-// const cardGrid = document.querySelector('.cardGrid')
-
 const projects = [
     {
         url:'./imgdesktopPopUp.svg',
@@ -70,20 +67,6 @@ const projects = [
     return false;
   }
     
-
-//     // const cardWorkDetailsMobile = (index) => `
-//   <article class="card-work-details-mobile">
-//   
-//       <img src="./assest/Icon-Cancel.svg" alt="cancel icon">
-//   </button>
-//   <div class="card-image-details-mobile">
-//       <img src=${dataCards[index].url} alt="">
-//   </div>
-//   <h2 class="card-title-mobile">
-//       ${dataCards[index].title}
-//   </h2>
-
-
    function createModal (project) { 
      const projectData =getProject(project);
     const modalPopUp = `
@@ -153,24 +136,6 @@ const projects = [
       listItem.innerText = tec;
       ulCard.appendChild(listItem);
     });
-    //  cardGridContainer.appendChild(cardElement);
-    //  cardElement.appendChild(cardSection);
-    //  cardSection.appendChild(ulCard);
-    //  console.log(cardElement);
-    //  const liCard2 = document. createElement('li')
-    //   // liCard2.classList.add('myRecentWorkItem')
-    //   // liCard2.innertText = 'css';
-  
-    //   // const liCard3 = document. createElement('li')
-    //   // liCard3.classList.add('myRecentWorkItem')
-    //   // liCard3.innertText = 'JavaScript';
-  
-    //   // const liCard4 = document. createElement('li')
-    //   // liCard4.classList.add('myRecentWorkItem')
-    //   // liCard4.innertText = 'html';
-    
-
-    
     
     //   // creando boton
     const buttonCardEnd = document.createElement('button');
@@ -178,25 +143,11 @@ const projects = [
     buttonCardEnd.classList.add('buttongreen');
     buttonCardEnd.innerText = 'See Project';
     buttonCardEnd.setAttribute('onclick', `createModal('${project.key}')`);
-    // agregando la tarjeta al grid
-    //  cardGridContainer.appendChild(cardElement);
-    //  cardElement.appendChild(liCard1)
-    //  cardElement.appendChild(liCard2)
-    //  cardElement.appendChild(liCard3)
-    //  cardElement.appendChild(liCard4)
   
     cardSection.appendChild(cardTitle);
     cardSection.appendChild(ulCard);
     cardSection.appendChild(buttonCardEnd);
-    //console.log(buttonCardEnd);
-    // function seeProject(){
-    //     const b = document.getElementById('card')
-    //     if(b.style.display === 'none'){
-    //         b.style.display = 'grid';
-    //     }
-    //     else b.style.display = 'none';
-    //    }
-    // buttonCardEnd.onclick = seeProject();
+  
     cardElement.appendChild(cardSection);
     return cardElement;
 
@@ -248,15 +199,3 @@ const projects = [
   });
   
   document.addEventListener('DOMContentLoaded', insertCards);
-  
-
-  
-//   //const myRecentWork = document.querySelector('#myRecentWork');
-  
-//   myRecentWork.addEventListener('click', (e) => {
-//       e.preventDefault()
-//       if (e.target.classList.contains('buttongreen')){
-          
-//       }
-//   }
-
