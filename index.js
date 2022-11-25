@@ -75,7 +75,7 @@ const projects = [
     <img class="closePng" src="./closeButton.png" onclick=hideModal()>
   </button>
   <button type="button" class="btn-close-details">
-       <img class="DesktopPopUp" src="./SnapshootPortfolio.png" alt="cancel icon" onclick=hideModal()>
+       <img class="DesktopPopUp" src="./SnapshootPortfolio.png" alt="cancel icon">
    </button>
   <div class="card-image-details-mobile" onclick=hideModal()>
       <img src=${projectData.imagen} alt="">
