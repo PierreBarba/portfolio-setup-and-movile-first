@@ -62,9 +62,10 @@
 To get a local copy up and running, follow these steps.
 
 
+
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="Pierre Barba"></a>
 
 > Mention all of the collaborators of this project.
 
