@@ -73,7 +73,7 @@ const projects = [
 
 //     // const cardWorkDetailsMobile = (index) => `
 //   <article class="card-work-details-mobile">
-//   <button type="button" class="btn-close-details">
+//   
 //       <img src="./assest/Icon-Cancel.svg" alt="cancel icon">
 //   </button>
 //   <div class="card-image-details-mobile">
@@ -88,8 +88,11 @@ const projects = [
      const projectData =getProject(project);
     const modalPopUp = `
   <article class="card-work-details-mobile show" id="card">
+  <button type="button" class="btn-close">
+    <img class="closePng" src="./closeButton.png" onclick=hideModal()>
+  </button>
   <button type="button" class="btn-close-details">
-       <img class="DesktopPopUp" src="./SnapshootPortfolio.svg" alt="cancel icon" onclick=hideModal()>
+       <img class="DesktopPopUp" src="./SnapshootPortfolio.png" alt="cancel icon" onclick=hideModal()>
    </button>
   <div class="card-image-details-mobile" onclick=hideModal()>
       <img src=${projectData.imagen} alt="">

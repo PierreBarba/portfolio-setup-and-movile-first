@@ -738,6 +738,17 @@ tablet
   .containerDesk {
     display: none;
   }
+  .closePng{
+    display:none;
+  }
+  .btn-close{
+    height: 0px;
+    margin: 0px;
+    width: 0px;
+    size: 0px;
+    border: none;
+    display: none;
+  }
 
   .imgTwoDesk {
     display: none;
@@ -901,6 +912,22 @@ tablet
 
 
  @media (min-width: 768px){
+  .btn-close{
+    height: 0px;
+    margin: 0px;
+    width: 0px;
+    size: 0px;
+    border: none;
+  }
+
+  .myRecentWorkPopUp {
+    margin: 6px;
+    display: grid;
+    gap: 6px;
+    justify-items: left;
+    height: 394px;
+}
+
   .subtitle {
     margin: 0px;
     text-align: center;
@@ -935,7 +962,7 @@ tablet
   }
   
   
-    .card-button-mobile {
+  .card-button-mobile {
       display: flex;
       justify-self: end;
       height: 58px;
@@ -970,7 +997,10 @@ margin: 6px 0px 0px 722px;
 .DesktopPopUp{
   z-index: 50;
   height: 40em;
-  margin: 6% 0% 0% 28%;
+  margin: 10% 0% 0% 28%;
+}
+.closePng{
+  margin: 0px 0px 0px 700px;
 }
 .btn-close-details {
   position: absolute;
@@ -982,11 +1012,94 @@ right: 29%;
 }
 } 
 @media (min-width:769px){
+  .btn-close{
+    height: 0px;
+    margin: 0px;
+    width: 0px;
+    size: 0px;
+    border: none;
+  }
+
   .DesktopPopUp {
     z-index: 50;
     height: 48em;
     margin: 3% 0% 0% 6%;
     /* width: 2005px; */
     height: 684px;
+}
+.closePng{
+  margin: -5px 0px -32px 716px;
+  height: 33px;
+}
+
+}
+@media (min-width: 1020px){
+/* cuando este en estte tamaño has */
+.DesktopPopUp {
+  z-index: 50;
+  margin: 69px 0% 0% 28%;
+  width: 1063px;
+  height: 484px;
+}
+
+  .subTitlePopUp {
+    grid-column: 1;
+    grid-row: 1;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7em;
+    color: #172b4d;
+    margin: 222px 0px 0px 0px;
+}
+.btn-close{
+  height: 0px;
+  margin: 0px;
+  width: 0px;
+  size: 0px;
+  border: none;
+}
+.closePng {
+  margin: -33px 0px -32px 986px;
+  height: 50px;
+}
+}
+@media (min-width: 1856px){
+  .DesktopPopUp {
+    z-index: 50;
+    margin: 69px 0% 0% 27%;
+    width: 1798px;
+    height: 657px;
+  }
+  
+    .subTitlePopUp {
+      grid-column: 1;
+      grid-row: 1;
+      font-family: "inter", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.7em;
+      color: #172b4d;
+      margin: 222px 0px 0px 0px;
+  }
+  .btn-close{
+    height: 0px;
+    margin: 0px;
+    width: 0px;
+    size: 0px;
+    border: none;
+  }
+  .closePng {
+    margin: -33px 0px -32px 1738px;
+    height: 50px;
+  }
+  .card-button-mobile {
+    display: flex;
+    justify-self: end;
+    height: 58px;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 219px 38px 0px 261px;
+    gap: 13px;
 }
 }
