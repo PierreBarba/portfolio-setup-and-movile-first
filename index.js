@@ -202,3 +202,7 @@ const projects = [
   });
   
   document.addEventListener('DOMContentLoaded', insertCards);
+
+const finishform = document.querySelector('.finishForm');
+const email = document.querySelector('.inputEmail');
+const emailError =document.querySelector('.emailError')
