@@ -1,6 +1,6 @@
 const projects = [
   {
-    url: './imgdesktopPopUp.svg',
+    url: './SnapshootPortfolio.png',
     key: 'project1',
     titulo: 'Multi-Post Stories Gain+Glory',
     tecnologias: ['Ruby on rails', 'css', 'JavaScript', 'html'],
@@ -11,6 +11,7 @@ const projects = [
 
   },
   {
+    url: './imgdesktopPopUp.svg',
     key: 'project2',
     titulo: 'Multi-Post Stories Gain+Glory',
     tecnologias: ['Ruby on rails', 'css', 'JavaScript', 'html'],
@@ -21,6 +22,7 @@ const projects = [
 
   },
   {
+    url: './imgdesktopPopUp.svg',
     key: 'project3',
     titulo: 'Multi-Post Stories Gain+Glory',
     tecnologias: ['Ruby on rails', 'css', 'JavaScript', 'html'],
@@ -30,6 +32,7 @@ const projects = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
   },
   {
+    url: './imgdesktopPopUp.svg',
     key: 'project4',
     titulo: 'Multi-Post Stories Gain+Glory',
     tecnologias: ['Ruby on rails', 'css', 'JavaScript', 'html'],
@@ -39,6 +42,7 @@ const projects = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
   },
   {
+    url: './imgdesktopPopUp.svg',
     key: 'project5',
     titulo: 'Multi-Post Stories Gain+Glory',
     tecnologias: ['Ruby on rails', 'css', 'JavaScript', 'html'],
@@ -48,6 +52,7 @@ const projects = [
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ad molestiae dolorem excepturi ipsam dolorum illum molestias vero veritatis fuga!',
   },
   {
+    url: './imgdesktopPopUp.svg',
     key: 'project6',
     titulo: 'Multi-Post Stories Gain+Glory',
     tecnologias: ['Ruby on rails', 'css', 'JavaScript', 'html'],
@@ -140,6 +145,7 @@ const createcard = (project) => {
   buttonCardEnd.type = 'button';
   buttonCardEnd.classList.add('buttongreen');
   buttonCardEnd.innerText = 'See Project';
+  //fix button see project
   buttonCardEnd.setAttribute('onclick', `createModal('${project.key}')`);
 
   cardSection.appendChild(cardTitle);
