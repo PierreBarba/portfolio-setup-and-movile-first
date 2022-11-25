@@ -41,7 +41,6 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/8_popup.md)
   - [Install](install)
   - [Usage](html,javascript,css)
-  - [Run tests](#linter css,html,javascript)
 - [👥 Authors](https://github.com/PierreBarba)
 - [🔭 Future Features](https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/9_validate_form.md)
 - [🤝 Contributing](https://github.com/cilfonegabriel)
