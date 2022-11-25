@@ -71,7 +71,7 @@ function getProject(projectKey) {
   }
   return false;
 }
-
+/* eslint-disable */
 function createModal(project) {
   const projectData = getProject(project);
   const modalPopUp = `
@@ -113,26 +113,22 @@ function createModal(project) {
   document.querySelector('.modal').innerHTML = modalPopUp;
   return modalPopUp;
 }
-console.log(createModal);
-// cardeElement es solo el nombre que le di para el objeto que estoy
-// creando en este caso es la tarjeta
+
 const createcard = (project) => {
-  // const cardModal = createModal(project)
-  // creando contenedor de la tarjeta
+ 
   const cardElement = document.createElement('section');
-  // asignando propiedades del contenedor cardElement (class,id)
+  
   cardElement.classList.add('post');
-  // creando titulo de la tarjeta
+  
   const cardSection = document.createElement('section');
   cardSection.classList.add('cardInformation');
 
   const cardTitle = document.createElement('h3');
   cardTitle.classList.add('subtitle');
   cardTitle.innerText = project.titulo;
-  // creando tecnologias
+  
   const ulCard = document.createElement('ul');
-  // creando hijo de tecnologías (li)
-
+ 
   project.tecnologias.forEach((tec) => {
     const listItem = document.createElement('li');
     listItem.classList.add('myRecentWorkItem');
@@ -140,12 +136,12 @@ const createcard = (project) => {
     ulCard.appendChild(listItem);
   });
 
-  //   // creando boton
+ 
   const buttonCardEnd = document.createElement('button');
   buttonCardEnd.type = 'button';
   buttonCardEnd.classList.add('buttongreen');
   buttonCardEnd.innerText = 'See Project';
-  //fix button see project
+  
   buttonCardEnd.setAttribute('onclick', `createModal('${project.key}')`);
 
   cardSection.appendChild(cardTitle);
@@ -160,10 +156,7 @@ function hideModal() {
   const modal = document.getElementById('card');
   modal.classList.toggle('show');
 }
-console.log(hideModal);
-//   // llama la funcion y la ejecuta
 
-// insert cards into cardsGird : iterar arreglo de proyectos e insertar tarjetas
 
 const insertCards = () => {
   const cardGridContainer = document.createElement('div');
@@ -174,7 +167,7 @@ const insertCards = () => {
   document.getElementById('myRecentWork').appendChild(cardGridContainer);
 };
 
-// insertCards();
+
 
 const menuBtn = document.querySelector('.hamburger');
 const headerNavMobile = document.querySelector('.header-nav-mobile');
