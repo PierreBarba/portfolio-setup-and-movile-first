@@ -130,7 +130,7 @@ const createcard = (project) => {
   const ulCard = document.createElement('ul');
  
   project.tecnologias.forEach((tec) => {
-    const listItem = document.createElement('li');
+    const listItem = document.createElement('');
     listItem.classList.add('myRecentWorkItem');
     listItem.innerText = tec;
     ulCard.appendChild(listItem);
