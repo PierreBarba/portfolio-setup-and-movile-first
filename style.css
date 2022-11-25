@@ -191,6 +191,18 @@ body {
   margin-top: 64px;
 }
 
+.myRecentWorks {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 8px 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 16px;
+  width: max-content;
+}
+
 .myRecentWork {
   margin: 22px;
   display: grid;
