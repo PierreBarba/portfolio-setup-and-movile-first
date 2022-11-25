@@ -65,9 +65,7 @@ To get a local copy up and running, follow these steps.
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="Pierre Barba"></a>
-
-> Mention all of the collaborators of this project.
+## 👥 Pierre barba <a name="Pierre Barba"></a>
 
 👤 **Pierre barba arredondo**
 
