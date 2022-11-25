@@ -1,37 +1,115 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# my portfolio 
+<div align="center">
 
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-> This is a project from microverse where we will have to create our own mobile portfolio, using html and css in this project we will need to change font colors we will use figma..
+  <h3><b>Microverse README Template</b></h3>
 
-
-## Built With
-
-
-- html
-- css
-
-## Live Demo
-
-[livedemo](https://pierrebarba.github.io/portfolio-setup-and-movile-first/)
+</div>
 
 
-## Getting Started
+# 📗 Table of Contents
 
-👤 **pierre barba**
+  - [🚀 Live Demo](https://pierrebarba.github.io/portfolio-setup-and-movile-first/)
+- [💻 Getting Started](https://pierrebarba.github.io/portfolio-setup-and-movile-first/)
+  - [Setup](setup)
+  - [Prerequisites](https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/8_popup.md)
+  - [Install](install)
+  - [Usage](html,javascript,css)
+- [👥 Authors](https://github.com/PierreBarba)
+- [🔭 Future Features](https://github.com/microverseinc/curriculum-html-css/blob/main/portfolio/9_validate_form.md)
+- [🤝 Contributing](https://github.com/cilfonegabriel)
+- [⭐️ Show your support](support)
+- [🙏 Acknowledgements](https://github.com/cilfonegabriel,https://github.com/elafildecolor,https://github.com/luigirazum)
+- [📝 License](MIT)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Personal Portfolio Pierre Barba] <a name="Personal_Portfolio_Pierre"></a>
+
+
+**[Personal Portfolio Pierre]** is a...
+
+## 🛠 CSS,HTML,JAVASCRIPT <a name="javascript,html,css"></a>
+
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[dinamic]**
+- **[responsive]**
+- **[functional]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="Personal Portfolio Pierre Barba"></a>
+
+
+- [Live Demo Link](http://127.0.0.1:5503/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+
+To get a local copy up and running, follow these steps.
+
+
+
+<!-- AUTHORS -->
+
+## 👥 Pierre barba <a name="Pierre Barba"></a>
+
+👤 **Pierre barba arredondo**
 
 - GitHub: [@githubhandle](https://github.com/PierreBarba)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jean-pierre-barba-arredondo-114b851b4/)
+- Twitter: [@twitterhandle](https://twitter.com/pierreanbar)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[I will do form validation]**
+- [ ] **[and save the data in the browser]**
+
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank to my stand up colleagues, luis and paul, to my coding partner gabriel and kola without forgetting to mention emmanuel who supported me advising me on some points where I felt lost
+
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
