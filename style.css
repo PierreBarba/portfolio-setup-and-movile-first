@@ -730,22 +730,22 @@ tablet
     align-self: center;
     height: 341px;
   }
-
 }
-
 
 @media (max-width: 767px) {
   .containerDesk {
     display: none;
   }
-  .closePng{
-    display:none;
+
+  .closePng {
+    display: none;
   }
-  .btn-close{
-    height: 0px;
-    margin: 0px;
-    width: 0px;
-    size: 0px;
+
+  .btn-close {
+    height: 0;
+    margin: 0;
+    width: 0;
+    size: 0;
     border: none;
     display: none;
   }
@@ -771,22 +771,23 @@ tablet
     width: fit-content;
     line-height: 3;
   }
-  .DesktopPopUp{
+
+  .DesktopPopUp {
     display: none;
     z-index: 50;
-      height: 40em;
-      margin:5% 0% 0% -2%;
+    height: 40em;
+    margin: 5% 0% 0% -2%;
   }
 }
 
 .card-work-details-mobile {
   display: none;
   padding: 16px;
-   font-size: 16px; 
-   background: #fff; 
-  border: 1px solid #dfe1e6; 
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
-  border-radius: 16px; 
+  border-radius: 16px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -795,9 +796,9 @@ tablet
   height: 100%;
   width: 100%;
   z-index: 2;
-  
 }
-.show{
+
+.show {
   display: grid;
 }
 
@@ -831,7 +832,7 @@ tablet
   line-height: 44px;
 }
 
-.cardTag > ul{
+.cardTag > ul {
   background: lightgray;
   font-size: 12px;
   padding: 0.5em;
@@ -862,7 +863,6 @@ tablet
 
 .informationCard ul {
   display: flex;
-
   padding: 6px;
   gap: 8px;
   list-style: none;
@@ -884,7 +884,7 @@ tablet
   font-weight: 600;
   font-size: 1.7em;
   color: #172b4d;
-  margin: 0em 0em 0em 0em;
+  margin: 0 0 0 0;
 }
 
 .card-paragraph-mobile {
@@ -896,8 +896,8 @@ tablet
 }
 
 .card-button-mobile {
-    display: flex;
-    height: 59px;
+  display: flex;
+  height: 59px;
 }
 
 .btn-card-details-mobile {
@@ -910,13 +910,12 @@ tablet
   gap: 12px;
 }
 
-
- @media (min-width: 768px){
-  .btn-close{
-    height: 0px;
-    margin: 0px;
-    width: 0px;
-    size: 0px;
+@media (min-width: 768px) {
+  .btn-close {
+    height: 0;
+    margin: 0;
+    width: 0;
+    size: 0;
     border: none;
   }
 
@@ -926,16 +925,16 @@ tablet
     gap: 6px;
     justify-items: left;
     height: 394px;
-}
+  }
 
   .subtitle {
-    margin: 0px;
+    margin: 0;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
     font-family: "inter", sans-serif;
     color: #3a4a42;
-}
+  }
 
   .subTitlePopUp {
     grid-column: 1;
@@ -945,161 +944,169 @@ tablet
     font-weight: 700;
     font-size: 2.7em;
     color: #172b4d;
-    margin: 201px 0px 0px 0px;
+    margin: 201px 0 0 0;
   }
 
   .card-paragraph-mobile {
-  color: #344563;
-  font-family: Inter, sans-serif;
-  line-height: 1.5em;
-  margin: 0%;
-  font-weight: 400;
-  grid-row: 3;
-  grid-column: 1;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  font-size: large;
-  }
-  
-  
-  .card-button-mobile {
-      display: flex;
-      justify-self: end;
-      height: 58px;
-      grid-column: 2;
-      grid-row: 1;
-      margin: 219px 0px 0px -135px;
-      gap: 23px;
-  }
-  
-.card-image-details-mobile > img {
- display: none;;
-}
-.myRecentWorkItem {
-  background-color: #ebf0ee;
-  border-radius: 4px;
-  padding: 8px 12px;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 0.99rem;
-  line-height: 12px;
-  width: 103px;
-  margin: 0px 0px 0px 0px;
-}
-.closeButtonDesktop{
-z-index: 50;
-width: 5px 5px 5px 5px;
-height: 29px;
-width: 40px;
-margin: 6px 0px 0px 722px;
-}
-.DesktopPopUp{
-  z-index: 50;
-  height: 40em;
-  margin: 10% 0% 0% 28%;
-}
-.closePng{
-  margin: 0px 0px 0px 700px;
-}
-.btn-close-details {
-  position: absolute;
-  background: none;
-  border: none;
-  position: absolute;
-    top: 0%;
-right: 29%;
-}
-} 
-@media (min-width:769px){
-  .btn-close{
-    height: 0px;
-    margin: 0px;
-    width: 0px;
-    size: 0px;
-    border: none;
-  }
-
-  .DesktopPopUp {
-    z-index: 50;
-    height: 48em;
-    margin: 3% 0% 0% 6%;
-    /* width: 2005px; */
-    height: 684px;
-}
-.closePng{
-  margin: -5px 0px -32px 716px;
-  height: 33px;
-}
-
-}
-@media (min-width: 1020px){
-/* cuando este en estte tamaño has */
-.DesktopPopUp {
-  z-index: 50;
-  margin: 69px 0% 0% 28%;
-  width: 1063px;
-  height: 484px;
-}
-
-  .subTitlePopUp {
+    color: #344563;
+    font-family: Inter, sans-serif;
+    line-height: 1.5em;
+    margin: 0%;
+    font-weight: 400;
+    grid-row: 3;
     grid-column: 1;
-    grid-row: 1;
-    font-family: "inter", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.7em;
-    color: #172b4d;
-    margin: 222px 0px 0px 0px;
-}
-.btn-close{
-  height: 0px;
-  margin: 0px;
-  width: 0px;
-  size: 0px;
-  border: none;
-}
-.closePng {
-  margin: -33px 0px -32px 986px;
-  height: 50px;
-}
-}
-@media (min-width: 1856px){
-  .DesktopPopUp {
-    z-index: 50;
-    margin: 69px 0% 0% 27%;
-    width: 1798px;
-    height: 657px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: large;
   }
-  
-    .subTitlePopUp {
-      grid-column: 1;
-      grid-row: 1;
-      font-family: "inter", sans-serif;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 2.7em;
-      color: #172b4d;
-      margin: 222px 0px 0px 0px;
-  }
-  .btn-close{
-    height: 0px;
-    margin: 0px;
-    width: 0px;
-    size: 0px;
-    border: none;
-  }
-  .closePng {
-    margin: -33px 0px -32px 1738px;
-    height: 50px;
-  }
+
   .card-button-mobile {
     display: flex;
     justify-self: end;
     height: 58px;
     grid-column: 2;
     grid-row: 1;
-    margin: 219px 38px 0px 261px;
-    gap: 13px;
+    margin: 219px 0 0 -135px;
+    gap: 23px;
+  }
+
+  .card-image-details-mobile > img {
+    display: none;
+  }
+
+  .myRecentWorkItem {
+    background-color: #ebf0ee;
+    border-radius: 4px;
+    padding: 8px 12px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.99rem;
+    line-height: 12px;
+    width: 103px;
+    margin: 0 0 0 0;
+  }
+
+  .closeButtonDesktop {
+    z-index: 50;
+    height: 29px;
+    width: 40px;
+    margin: 6px 0 0 722px;
+  }
+
+  .DesktopPopUp {
+    z-index: 50;
+    height: 40em;
+    margin: 10% 0% 0% 28%;
+  }
+
+  .closePng {
+    margin: 0 0 0 700px;
+  }
+
+  .btn-close-details {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0%;
+    right: 29%;
+  }
 }
+
+@media (min-width: 769px) {
+  .btn-close {
+    height: 0;
+    margin: 0;
+    width: 0;
+    size: 0;
+    border: none;
+  }
+
+  .DesktopPopUp {
+    z-index: 50;
+    margin: 3% 0% 0% 6%;
+    height: 684px;
+  }
+
+  .closePng {
+    margin: -5px 0 -32px 716px;
+    height: 33px;
+  }
+}
+
+@media (min-width: 1020px) {
+  /* cuando este en estte tamaño has */
+  .DesktopPopUp {
+    z-index: 50;
+    margin: 69px 0% 0% 28%;
+    width: 1063px;
+    height: 484px;
+  }
+
+  .subTitlePopUp {
+    grid-column: 1;
+    grid-row: 1;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7em;
+    color: #172b4d;
+    margin: 222px 0 0 0;
+  }
+
+  .btn-close {
+    height: 0;
+    margin: 0;
+    width: 0;
+    size: 0;
+    border: none;
+  }
+
+  .closePng {
+    margin: -33px 0 -32px 986px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1856px) {
+  .DesktopPopUp {
+    z-index: 50;
+    margin: 69px 0% 0% 27%;
+    width: 1798px;
+    height: 657px;
+  }
+
+  .subTitlePopUp {
+    grid-column: 1;
+    grid-row: 1;
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.7em;
+    color: #172b4d;
+    margin: 222px 0 0 0;
+  }
+
+  .btn-close {
+    height: 0;
+    margin: 0;
+    width: 0;
+    size: 0;
+    border: none;
+  }
+
+  .closePng {
+    margin: -33px 0 -32px 1738px;
+    height: 50px;
+  }
+
+  .card-button-mobile {
+    display: flex;
+    justify-self: end;
+    height: 58px;
+    grid-column: 2;
+    grid-row: 1;
+    margin: 219px 38px 0 261px;
+    gap: 13px;
+  }
 }
