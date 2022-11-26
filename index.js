@@ -201,7 +201,6 @@ const email = document.querySelector('.inputEmail');
 const emailError =document.querySelector('.emailError')
 const regExp = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 console.log(finishform)
-
 finishform.addEventListener('submit', (e) => {
     if (email.value.match(regExp)){
         emailError.style.display = 'none';
