@@ -24,12 +24,12 @@ body {
 }
 
 .emailError {
+  margin-left: 2em;
+  margin-bottom: 1em;
+  color: red;
+  font-style: italic;
+  font-size: medium;
   display: none;
-}
-
-.bar {
-  margin: 0;
-  padding: 0;
 }
 
 .noopener {
