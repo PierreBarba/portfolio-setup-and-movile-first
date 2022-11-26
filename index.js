@@ -206,3 +206,17 @@ const projects = [
 const finishform = document.querySelector('.finishForm');
 const email = document.querySelector('.inputEmail');
 const emailError =document.querySelector('.emailError')
+const regExp = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+console.log(finishform)
+finishform.addEventListener('submit', (e) => {
+    if (email.value.match(regExp)){
+        emailError.style.display = 'none';
+        return true;
+    }else {
+        e.preventDefault();
+        emailError.style.display = 'block';
+        console.log(emailError)
+        return false;
+    }
+})
+console.log(finishform);
