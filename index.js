@@ -195,3 +195,9 @@ linkSection[2].addEventListener('click', () => {
 });
 
 document.addEventListener('DOMContentLoaded', insertCards);
+
+const finishform = document.querySelector('.finishForm');
+const email = document.querySelector('.inputEmail');
+const emailError =document.querySelector('.emailError')
+const regExp = /^[a-z0-9]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+console.log(finishform)
